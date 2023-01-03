@@ -18,11 +18,13 @@
     padding: 16px;
     width: 358px;
     margin-right: 12px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.subscription-form__input:focus {
-    outline: none;
-    border-color: var(--accent-color);
+    transition: border-color 250ms var(--cubic);
+
+
+    &:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
 }
 
 .subscription-form__icon {

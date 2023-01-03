@@ -14,29 +14,28 @@
 
     transition-property: fill, background-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: var(--cubic);
+
+
+    &:hover,
+    &:focus {
+            fill: var(--primary-white-color);
+            background-color: var(--accent-color);
+        }
+
+    &--bg-grey {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
 }
 
 .social-links__item:not(:last-child) {
     margin-right: 9px;
 }
 
-.social-links__link:hover,
-.social-links__link:focus {
-    fill: var(--primary-white-color);
-    background-color: var(--accent-color);
-}
-
 .social-links__icon {
     width: 20px;
     height: 20px;
-}
-
-// Use in Footer
-.social-links__link--bg-grey {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    ;
 }

@@ -1,44 +1,5 @@
-@import './utils/vars'; 
-@import "./utils/hidden";
+@import "./base/index";
+@import "./utils/index";
+@import "./layout/index";
+@import "./components/index";
 
-@import "./base/normalize";
-@import "./base/base";
-@import "./base/fonts";
-@import "./base/reset";
-
-@import "./components/address";
-@import "./components/bacrdrop";
-@import "./components/button-close";
-@import "./components/card";
-@import "./components/checkbox";
-@import "./components/clients-section";
-@import "./components/container";
-@import "./components/co-worker-card";
-@import "./components/example-section";
-@import "./components/features";
-@import "./components/filter";
-@import "./components/form";
-@import "./components/header";
-@import "./components/hero";
-@import "./components/logo";
-@import "./components/main-button";
-@import "./components/modal";
-@import "./components/overlay";
-@import "./components/projects-section";
-@import "./components/section";
-@import "./components/section-title";
-@import "./components/site-nav";
-@import "./components/site-contacts";
-@import "./components/social-links";
-@import "./components/team-section";
-
-
-
-
-
-
-
-
-
-@import "./components/footer";
-@import "./components/form-in-footer";
